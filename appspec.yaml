@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+ - TargetService:
+     Type: AWS::ECS::Service
+     Properties:
+       TaskDefinition: "arn:aws:ecs:us-east-1:527225264219:task-definition/cminotas-code-deploy:4"
+       LoadBalancerInfo:
+         ContainerName: "cminotas-code-deploy"
+         ContainerPort: 8080
