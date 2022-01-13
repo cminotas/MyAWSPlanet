@@ -58,7 +58,7 @@
     }
   ],
   "placementConstraints": [],
-  "memory": 256,
+  "memory": "256",
   "taskRoleArn": "arn:aws:iam::527225264219:role/jenkins-orange-jenkins-ss-MicroServiceTaskRole",
   "compatibilities": [
     "EXTERNAL",
@@ -110,7 +110,7 @@
   ],
   "networkMode": null,
   "runtimePlatform": null,
-  "cpu": 128,
+  "cpu": "128",
   "revision": 18,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
