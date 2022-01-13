@@ -11,6 +11,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
+        String message = "Hello world v1";
         System.out.println("Hello world v1");
         return message;
     }
