@@ -12,13 +12,6 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello() {
         System.out.println("Hello world v1");
-        String message = "Hello AWS!";
-        try {
-            InetAddress ip = InetAddress.getLocalHost();
-            message += " From host: " + ip;
-        } catch (UnknownHostException e) {
-            e.printStackTrace();
-        }
         return message;
     }
 
